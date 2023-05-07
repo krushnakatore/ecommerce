@@ -37,5 +37,5 @@ app.use('*', function (req, res) {
 const PORT = process.env.PORT || 9000;
 
 app.listen(PORT, () => {
-  console.log(`listening on ${process.env.DEV_MODE} port on ` + PORT);
+  console.log(`listening on port on ` + PORT);
 });
